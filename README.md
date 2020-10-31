@@ -1,7 +1,7 @@
 
-# cc2538-raspberry-pi-shield
+# cc2538-raspberry-pi-module
 
-> ZigBee CC2538 Raspberry Pi shield + RTC
+> ZigBee CC2538 Raspberry Pi module + RTC
 
 
 ## PCB 3D images
