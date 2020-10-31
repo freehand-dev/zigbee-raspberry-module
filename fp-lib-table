@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CC2538-CC2592)(type KiCad)(uri C:/Users/mail/Desktop/zigbee-raspberry-module/Include/CC2538-CC2592-kicad-component-master/kicad/modules/RF_Module.pretty)(options "")(descr ""))
+)
