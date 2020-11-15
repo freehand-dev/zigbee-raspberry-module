@@ -13,11 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 7150 4750 2    50   Input ~ 0
+Text GLabel 5800 4750 0    50   Input ~ 0
 VCC
-Wire Wire Line
-	6750 4750 7150 4750
-Text GLabel 7150 5150 2    50   Input ~ 0
+Text GLabel 5800 5150 0    50   Input ~ 0
 GND
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
@@ -30,20 +28,12 @@ F 3 "~" H 6450 4950 50  0001 C CNN
 	1    6450 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 5150 7150 5150
-Text GLabel 5900 5150 0    50   Input ~ 0
+Text GLabel 7450 5150 2    50   Input ~ 0
 TXD
-Text GLabel 5900 5050 0    50   Input ~ 0
+Text GLabel 7450 5050 2    50   Input ~ 0
 RXD
-Text GLabel 5900 4950 0    50   Input ~ 0
+Text GLabel 7450 4950 2    50   Input ~ 0
 GND
-Wire Wire Line
-	6250 4950 5900 4950
-Wire Wire Line
-	6250 5050 5900 5050
-Wire Wire Line
-	6250 5150 5900 5150
 Text GLabel 5600 3650 2    50   Input ~ 0
 RXD
 Text GLabel 5600 3550 2    50   Input ~ 0
@@ -195,14 +185,10 @@ Wire Wire Line
 Connection ~ 6650 3650
 Wire Wire Line
 	6650 3650 6650 3950
-Text GLabel 7150 4850 2    50   Input ~ 0
+Text GLabel 5800 4850 0    50   Input ~ 0
 SDA
-Text GLabel 7150 4950 2    50   Input ~ 0
+Text GLabel 5800 4950 0    50   Input ~ 0
 SCL
-Wire Wire Line
-	6750 4850 7150 4850
-Wire Wire Line
-	6750 4950 7150 4950
 $Comp
 L Timer_RTC:DS3231M U2
 U 1 1 5F6F9B99
@@ -225,17 +211,6 @@ SDA
 Wire Wire Line
 	2300 5050 2400 5050
 $Comp
-L Device:Battery BT1
-U 1 1 5F703E18
-P 4050 5200
-F 0 "BT1" H 4158 5246 50  0000 L CNN
-F 1 "Battery" H 4158 5155 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_2998_1x6.8mm" V 4050 5260 50  0001 C CNN
-F 3 "~" V 4050 5260 50  0001 C CNN
-	1    4050 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L pspice:0 #GND0102
 U 1 1 5F706E26
 P 4050 5950
@@ -247,12 +222,9 @@ F 3 "~" H 4050 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 5400 4050 5800
-Wire Wire Line
 	3150 5650 3150 5800
 Wire Wire Line
 	3150 5800 4050 5800
-Connection ~ 4050 5800
 Wire Wire Line
 	4050 5800 4050 5950
 $Comp
@@ -314,8 +286,6 @@ Wire Wire Line
 	3150 4550 4050 4550
 Wire Wire Line
 	3150 4550 3150 4850
-Wire Wire Line
-	4050 4550 4050 5000
 $Comp
 L Device:R R3
 U 1 1 5F7102AF
@@ -385,4 +355,37 @@ $EndComp
 Wire Wire Line
 	5250 2650 5800 2650
 Connection ~ 5800 2650
+$Comp
+L BK-870:BK-870 J2
+U 1 1 5FB01DD5
+P 4050 5200
+F 0 "J2" V 4004 5330 50  0000 L CNN
+F 1 "BK-870" V 4095 5330 50  0000 L CNN
+F 2 "MPD_BK-870" H 4050 5200 50  0001 L BNN
+F 3 "" H 4050 5200 50  0001 L BNN
+F 4 "MPD" H 4050 5200 50  0001 L BNN "MANUFACTURER"
+F 5 "Manufacturer Recommendation" H 4050 5200 50  0001 L BNN "STANDARD"
+F 6 "D" H 4050 5200 50  0001 L BNN "PARTREV"
+	1    4050 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 5400 4050 5800
+Connection ~ 4050 5800
+Wire Wire Line
+	4050 4550 4050 5000
+Wire Wire Line
+	5800 4750 6250 4750
+Wire Wire Line
+	5800 4850 6250 4850
+Wire Wire Line
+	5800 4950 6250 4950
+Wire Wire Line
+	5800 5150 6250 5150
+Wire Wire Line
+	7450 5150 6750 5150
+Wire Wire Line
+	6750 5050 7450 5050
+Wire Wire Line
+	7450 4950 6750 4950
 $EndSCHEMATC

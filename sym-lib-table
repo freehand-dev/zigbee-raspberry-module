@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name CC2538-CC2592)(type Legacy)(uri C:/Users/mail/Desktop/zigbee-raspberry-module/Include/CC2538-CC2592-kicad-component-master/kicad/library/cc2538_cc2592.lib)(options "")(descr ""))
+  (lib (name BK-870)(type Legacy)(uri C:/Users/mail/Desktop/zigbee-raspberry-module/Include/BK-870/BK-870.lib)(options "")(descr ""))
 )
