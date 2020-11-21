@@ -100,6 +100,20 @@ Now if you read the time directly from the RTC module again, you will notice tha
 
     sudo hwclock -r
 
+## Bill of Materials
+| Name | Designator | Quantity | Footprint | Buy | Description |
+|------|------------|----------|-----------|-----|-------------|
+| CC2538_CC2592 | U1 | 1 | CC2538-CC2592:CC2538_CC2592 | [aliexpress](https://aliexpress.ru/item/4000955681721.html) | Chinese CC2538_CC2592 zigbee module | 
+| DS3231M | U2 | 1 | Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm | [aliexpress](https://aliexpress.ru/item/4000106115557.html) | |
+| Conn_01x07 | JTAG1 | 1 | Connector_Harwin:Harwin_M20-89007xx_1x07_P2.54mm_Horizontal | [aliexpress](https://aliexpress.ru/item/32821748577.html) | |
+| Conn_02x05 | J1 | 1 |Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical | [aliexpress](https://aliexpress.ru/item/33004522737.html) | | 
+| BK-870 | J2 | 1 | MPD_BK-870 | [aliexpress](https://aliexpress.ru/item/33014348787.html) | |
+| B3U-1000P | SW1, SW2 | 2 | Button_Switch_SMD:SW_SPST_B3U-1000P | [aliexpress](https://aliexpress.ru/item/32623923874.html) | | 
+| 1k | R1| 1 | Resistor_SMD:R_0805_2012Metric | | |
+| 10k | R2, R3, R4 | 3 | Resistor_SMD:R_0805_2012Metric | | | 
+| 100nF | C1 | 1 | Capacitor_SMD:C_0805_2012Metric | | | 
+| IPEX_RP-SMA-K | | 1 | | [aliexpress](https://aliexpress.ru/item/10000000385894.html) | SMA Female |
+
 
 
 ## Links
