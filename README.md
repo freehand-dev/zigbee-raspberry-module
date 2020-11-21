@@ -111,7 +111,7 @@ Now if you read the time directly from the RTC module again, you will notice tha
 | B3U-1000P | SW1, SW2 | 2 | Button_Switch_SMD:SW_SPST_B3U-1000P | [aliexpress](https://aliexpress.ru/item/32623923874.html) | | 
 | 1k | R1| 1 | Resistor_SMD:R_0805_2012Metric | | |
 | 10k | R2, R3, R4 | 3 | Resistor_SMD:R_0805_2012Metric | | | 
-| 100nF | C1 | 1 | Capacitor_SMD:C_0805_2012Metric | | | 
+| 33uF | C1 | 1 | Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A | https://aliexpress.ru/item/4001241518347.html | A 10V33UF 336 | 
 | IPEX_RP-SMA-K | | 1 | | [aliexpress](https://aliexpress.ru/item/10000000385894.html) | SMA Female |
 
 
