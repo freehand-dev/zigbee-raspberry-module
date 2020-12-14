@@ -121,3 +121,4 @@ Now if you read the time directly from the RTC module again, you will notice tha
 * UART Version of the Z-Stack firmware - https://github.com/reverieline/CC2538-CC2592-ZNP/tree/master/MODKAMRU_V3
 * Kicad symbol, footprint, 3D model for CC2538-CC2592 Zigbee RF module. - https://github.com/uzsito/CC2538-CC2592-kicad-component
 * Programmer for CC2538 backdoor UART bootloader - https://github.com/1248/cc2538-prog/
+* Raspberry Pi UART configuration - https://www.raspberrypi.org/documentation/configuration/uart.md
