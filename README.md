@@ -8,8 +8,6 @@
 ![3D F.CU](Images/F.Cu.png)
 ![3D B.CU](Images/B.Cu.png)
 
-
-
 ## Firmware
 > You could flash the firmware by JTAG programmer or directly from the Raspberry Pi using [cc2538-prog](https://github.com/1248/cc2538-prog/). You have to flash a firmware with a serial bootloader (SBL).
 
